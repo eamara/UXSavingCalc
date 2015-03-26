@@ -1,0 +1,208 @@
+  input{
+    border: 5px solid white; 
+    -webkit-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    -moz-box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+    box-shadow: 
+      inset 0 0 8px  rgba(0,0,0,0.1),
+            0 0 16px rgba(0,0,0,0.1); 
+   /*  padding: 15px; */
+    background: rgba(255,255,255,0.5);
+    margin: 0 0 10px 0;  
+  border-radius: 10px;
+-moz-border-radius: 10px;
+-khtml-border-radius: 10px;
+-webkit-border-radius: 10px;
+    
+} 
+
+.panelsTitle{
+      margin-left: auto !important;
+    margin-right: auto !important;   
+	font-size: 150% !important ;
+	text-align: center !important;
+}
+ .calcuInfo{
+    /* text-indent: 50px; */
+ } 
+.resultPageT{
+	/*margin-left: 400px !important;*/
+	/*margin-right:auto !important;*/
+	font-size: 150% !important;
+	align: center !important;
+	
+}
+.tataLogo{
+	margin-left: 0px !important;
+}
+
+.tataLogo2{
+	margin-left: 5px !important;
+}
+.savingImage {
+     margin-left: 50px !important;
+     margin-right: 50px !important;
+}
+
+.savingImageC {
+     margin-left: 80px !important;
+     margin-right: 50px !important;
+}
+
+ .alignBoxes1P1{
+ 
+    
+     margin-left: 97px !important; 	
+     float: right important;
+}
+
+.alignBoxes2P1{
+ 
+    
+     margin-left: 95px !important; 	
+}
+
+
+.alignBoxes3P1{
+ 
+    
+     margin-left: 70px !important;
+     float: right !important; 
+    /* background-color: #FE2E2E !important;*/
+}
+
+.alignBoxes4P1{
+ 
+    
+     margin-left: 40px !important;
+     float: right !important;
+     /*background-color: #FE2E2E !important;*/
+}
+.alignBoxes3P1R{
+ 
+    
+     margin-left: 70px !important;
+     float: right !important; 
+     /*background-color: #31B404 !important;*/
+}
+
+.alignBoxes4P1R{
+ 
+    
+     margin-left: 40px !important;
+     float: right !important;
+     /*background-color: #31B404 !important;*/
+}
+
+.alignBoxes1P2{
+ 
+   
+     margin-left: 97px !important; 	
+}
+
+.alignBoxes2P2{
+ 
+   
+     margin-left: 95px !important; 	
+}
+.alignBoxes3P2{
+ 
+   
+     margin-left: 70px !important; 	
+     /*background-color: #FE2E2E !important;*/
+     color: #FE2E2E !important;
+}
+.sapMInputBaseInner{
+    font-size: 12px !important;
+    font-style: bold !important;
+}
+.alignBoxes4P2{
+ 
+   
+     margin-left:40px !important; 
+     /*background-color: #FE2E2E !important;*/
+     color: #FE2E2E !important;
+}
+.alignBoxes3P2R{
+ 
+   
+     margin-left: 70px !important; 	
+     /*background-color: #31B404 !important;*/
+     color:#31B404 !important;
+}
+.alignBoxes4P2R{
+ 
+   
+     margin-left:40px !important; 
+    /* background-color: #31B404 !important;*/
+    color:#31B404 !important;
+}
+.panelscss {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: small;
+    border-color: #2197FF;
+    border-radius: 10px;
+    background-color: #00FFFF;
+} 
+
+.panelscssB {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box;
+    
+    border-style: solid;
+    border-width: small;
+    border-color: #2197FF;
+    border-radius: 10px;
+    background-color: #00FFFF;
+    
+   /*  margin-right: 600px; */
+    margin-left: 10px;
+    /* margin-right: 10px; */
+} 
+ .sapMBarPH{
+	background-color: #2197FF;
+	
+}  
+.sapMIBar-CTX .sapMLabel{
+	color: #FFFFFF !important;
+	font-style: bold !important;
+	font-size: 30px !important;
+	
+}
+
+
+
+.saving{
+	font-style: bold italic;
+	font-size: 20px ;
+}
+.percentage{
+	font-style: bold italic;
+	font-size: 20px ;
+}
+
+
+.add10-5{
+	margin-top: 15px;
+	margin-right: 7px;
+} 
+.item3 {
+  padding: 1em;
+  background-color: #C9D787;
+}
+.item1 {
+  padding: 1em;
+  background-color: #FFFFFF;
+}
+.item2 {
+  padding: 1em;
+  background-color: #FFC0A9;
+}

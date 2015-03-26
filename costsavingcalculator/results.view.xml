@@ -1,0 +1,154 @@
+<core:View xmlns:core="sap.ui.core" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:l="sap.ui.layout" xmlns:c="sap.ui.commons" xmlns:viz="sap.viz.ui5.controls"
+	xmlns="sap.m" controllerName="tcs.calculator.costsavingcalculator.results"
+	xmlns:html="http://www.w3.org/1999/xhtml">
+	<Page title="UX Savings Calculator" enableScrolling="true" class="page">
+
+		<content>
+			<!--<Panel id="resId">
+				<HBox>
+				<Image src="images/TCS-Logo-Small.png" class="tataLogo2"
+						height="65px">
+					</Image>
+					<VBox>
+						<Text id="resultTitle" text="Results " class="resultPageT"></Text>
+					</VBox>
+					
+				</HBox>
+			</Panel>-->
+			<Text text=" "></Text>
+			<HBox height="10px" >
+            <Text text=" UX Impacts " class="panelsTitle" ></Text>
+			</HBox>
+
+            <Text text=" "></Text>
+            <HBox height="10px">
+			</HBox>
+            <Text text=" "></Text>
+
+
+			<l:Grid defaultSpan="L6 M12 S12" hSpacing="0.1" vSpacing="2"
+				containerQuery="true">
+				<l:content>
+					<Panel id="personaIdR" headerText="Personas" class="panelscss">
+						<HBox>
+							<Label text="Total Number of Users" class="add10-5"></Label>
+							<Input id="NumUsersIdPR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes1P1" />
+						</HBox>
+
+						
+						<HBox>
+							<Label text="Frequent Use Per Day" class="add10-5"></Label>
+							<Input id="fUseIdPR" width="150px" editable="false" type="Text"
+								value="" class="alignBoxes2P1" />
+						</HBox>
+						<HBox>
+							<Label text="Number of Clicks Per User" class="add10-5"></Label>
+							<Input id="NumClicksIdPR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes3P1R" />
+						</HBox>
+						<HBox>
+							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
+							<Input id="totalClicksIdPR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes4P1R" />
+						</HBox>
+						<Text text=""></Text>
+
+						<Panel id="totalPRSaving" class="panelscss">
+						<!--	<Text id="totalPRSavingtxt" text="Total Saving Benfit On Clicks:"></Text>-->
+							<Text id="savingPercentageP" text="" state="Success" ></Text> 
+							<!--<ObjectNumber number="66" unit="%" state="Success">
+
+							</ObjectNumber>-->
+							<HBox>
+							<VBox>
+							<Image  id= "clicksImP" src="" class="savingImage"></Image>
+							<Text id="SavingtxtP" text="Saving Benfit On Clicks " class="savingImageC"></Text>
+							</VBox>
+							<VBox> 
+							    <Text text="Better Look, Feel and Usability"></Text>
+							    <Text text=""></Text>
+							    <Text text="Enhanced productivity"></Text>
+							    <Text text=""></Text>
+							    <Text text="More personalized screen Experience"></Text>
+							    <Text text=""></Text>
+							    <Text text="Low training cost"></Text>
+							    <Text text=""></Text>
+							    <Text text="Benefit across enterprise"></Text>
+							</VBox>
+							</HBox>
+						</Panel>
+					</Panel>
+
+					<Panel id="fioriId" headerText="Fiori" class="panelscss">
+
+						<HBox>
+							<Label text="Total Number of Users" class="add10-5"></Label>
+							<Input id="NumUsersIdFR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes1P2" />
+						</HBox>						
+						<HBox>
+							<Label text="Frequent Use Per Day" class="add10-5"></Label>
+							<Input id="fUserIdFR" width="150px" editable="false" type="Text"
+								value="" class="alignBoxes2P2" />
+						</HBox>
+						<HBox>
+							<Label text="Number of Clicks Per User" class="add10-5"></Label>
+							<Input id="NumClicksIdFR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes3P2R" />
+						</HBox>
+						<HBox>
+							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
+							<Input id="totalcliksIdFR" width="150px" editable="false" type="Text" value=""
+								class="alignBoxes4P1R" />
+						</HBox>
+						<Text text=""></Text>
+						<Panel id="totalFRSaving" class="panelscss">
+							<!--<Text id="totalTrainingSavingtxt" text="Total Saving Benfit On Clicks:  "></Text>-->
+							<Text id="savingPercentageF" text="" state="Success" ></Text> 
+							<!--<ObjectNumber number="66" unit="%" state="Success">
+
+							</ObjectNumber>-->
+							
+							
+							<HBox>
+							<VBox>
+							<Image  id= "clicksImF" src="" class="savingImage" ></Image>
+							<Text id="SavingtxtF" text="Saving Benfit On Clicks " class="savingImageC"></Text>
+							</VBox>
+							
+							<VBox> 
+							    <Text text="Better Look, Feel and Usability"></Text>
+							    <Text text=""></Text>
+							    <Text text="Enhanced productivity"></Text>
+							    <Text text=""></Text>
+							    <Text text="More personalized screen Experience"></Text>
+							    <Text text=""></Text>
+							    <Text text="Low training cost"></Text>
+							    <Text text=""></Text>
+							    <Text text="Benefit across enterprise"></Text>
+							</VBox>
+							</HBox>
+							
+						
+						</Panel>
+					</Panel>
+                </l:content>
+                </l:Grid>
+
+		</content>
+		<footer>
+			<Toolbar>
+				<content>
+					<ToolbarSpacer />
+					<Button text="Modify Impacts" type="Accept" press="backToMain"
+						class="resultsBtn" id="resultsBtnP1" />
+					<Button text="Generate PDF" type="Accept" press="downloadPDF"
+						class="exportBtn" id="exportBtn" />
+					<ToolbarSpacer />
+				</content>
+			</Toolbar>
+		</footer>
+	</Page>
+</core:View>
