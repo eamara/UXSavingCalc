@@ -5,25 +5,27 @@
 
 		<content>
 			<Panel>
-
-				<HBox>
-				    <Image src="images/TCS-Logo-Small.png" class="tataLogo"
-						height="65px">
-					</Image>
-					<VBox width="70px" >
-					    
-					</VBox> 
-					<VBox>
-						<Text id="calcInfo" class="calcuInfo"
-							text="Improving the user experience of your current software goes beyond making good looking interface screens."></Text>
-						<Text id="calcInfo1" class="calcuInfo"
-							text="Task effectiveness, task efficiency and user satisfaction are key elements in the evaluation of a successful user interface."></Text>
-						<Text id="calcInfo2" class="calcuInfo"
-							text="A great user experience will maximize the values of these 3 components, leading to extra savings for your company."></Text>
-					</VBox>
-					
-				</HBox>
-
+			
+    			<l:Grid defaultSpan="L6 M6 S12">
+    			    <Image src="images/TCS-Logo-Small.png" class="tataLogo"
+    					height="65px" width="99px" >
+    					<layoutData>
+                            <l:GridData
+                                span="L2 M2 S12"
+                                linebreakL="true"
+                                linebreakM="true"
+                                linebreakS="true" />
+                        </layoutData>
+                    </Image>
+    				<Text id="calcInfo50" class="calcuInfo"
+    						text="Improving the user experience of your current software goes beyond making good looking interface screens."></Text>
+    				<Text id="calcInfo51" class="calcuInfo"
+    					text="Task effectiveness, task efficiency and user satisfaction are key elements in the evaluation of a successful user interface."></Text>
+    				<Text id="calcInfo52" class="calcuInfo"
+    					text="A great user experience will maximize the values of these 3 components, leading to extra savings for your company."></Text>
+    		  
+    			</l:Grid>
+    			
 			</Panel>
 
 			<Toolbar class="toolBClass">
@@ -43,74 +45,71 @@
 				<Button icon="sap-icon://overflow" press="onOpen" class="sapUiHideOnDesktop"/>
 			</Toolbar>
 
-			<Text text=" "></Text>
-			<HBox height="10px" width="100%" >
-            <Text text=" Basic SAP Screen " class="panelsTitle" > </Text>
-			</HBox>
-
-            <Text text=" "></Text>
-            <HBox height="10px">
-            
-			</HBox>
-            <Text text=" "></Text>
-			<l:Grid defaultSpan="L6 M12 S12" hSpacing="0.05" vSpacing="1"
-				containerQuery="true">
-				<l:content>
-					<Panel id="personaId" headerText="Personas" headerColor= "#DF013A" class="panelscss">
-						<HBox>
-							<Label text="Total Number of Users" class="add10-5"></Label>
-							<Input id="NumUsersIdP" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes1P1" />
-						</HBox>
-
-						<HBox>
-							<Label text="Frequent Use Per Day" class="add10-5"></Label>
-							<Input id="fUseIdP" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes2P1" />
-						</HBox>
-						<HBox>
-							<Label text="Number of Clicks Per User" class="add10-5"></Label>
-							<Input id="NumClicksIdP" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes3P1" />
-						</HBox>
-						<HBox>
-							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
-							<Input id="totalNumIdP" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes4P1"  />
-						</HBox>
-						<Text text=" "></Text>
-						
-					</Panel>
-
-					<Panel id="fioriId" headerText="Fiori" class="panelscss">
-
-						<HBox>
-							<Label text="Total Number of Users" class="add10-5"></Label>
-							<Input id="NumUsersIdF" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes1P2" />
-						</HBox>
-						
-						<HBox>
-							<Label text="Frequent Use Per day" class="add10-5"></Label>
-							<Input id="fUseIdF" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes2P2" />
-						</HBox>
-
-						<HBox>
-							<Label text="Number of Clicks Per User" class="add10-5"></Label>
-							<Input id="NumClicksIdF" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes3P2"  />
-						</HBox>
-						
-						<HBox>
-							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
-							<Input id="totalclicksIdF" width="150px" editable="false" type="Text" value=""
-								class="alignBoxes4P1"  />
-						</HBox>
-						<Text text=" "></Text>
-					</Panel>
-				</l:content>
-			</l:Grid>
+			<VBox>
+    			<HBox height="50px" class="panelsTitleCenter"  >
+                    <Text id="titleText" text=" Basic SAP Screen " class="panelsTitle" />
+    			</HBox>
+    		
+                
+    			<l:Grid defaultSpan="L6 M12 S12" hSpacing="0.05" vSpacing="1"
+    				containerQuery="true">
+    				<l:content>
+    					<Panel id="personaId" headerText="Personas" headerColor= "#DF013A" class="panelscss">
+    						<HBox>
+    							<Label text="Total Number of Users" class="add10-5"></Label>
+    							<Input id="NumUsersIdP" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes1P1" />
+    						</HBox>
+    
+    						<HBox>
+    							<Label text="Frequent Use Per Day" class="add10-5"></Label>
+    							<Input id="fUseIdP" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes2P1" />
+    						</HBox>
+    						<HBox>
+    							<Label text="Number of Clicks Per User" class="add10-5"></Label>
+    							<Input id="NumClicksIdP" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes3P1" />
+    						</HBox>
+    						<HBox>
+    							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
+    							<Input id="totalNumIdP" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes4P1"  />
+    						</HBox>
+    						<Text text=" "></Text>
+    						
+    					</Panel>
+    
+    					<Panel id="fioriId" headerText="Fiori" class="panelscss">
+    
+    						<HBox>
+    							<Label text="Total Number of Users" class="add10-5"></Label>
+    							<Input id="NumUsersIdF" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes1P2" />
+    						</HBox>
+    						
+    						<HBox>
+    							<Label text="Frequent Use Per day" class="add10-5"></Label>
+    							<Input id="fUseIdF" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes2P2" />
+    						</HBox>
+    
+    						<HBox>
+    							<Label text="Number of Clicks Per User" class="add10-5"></Label>
+    							<Input id="NumClicksIdF" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes3P2"  />
+    						</HBox>
+    						
+    						<HBox>
+    							<Label text="Total Number of Clicks Per Day" class="add10-5"></Label>
+    							<Input id="totalclicksIdF" width="150px" editable="false" type="Text" value=""
+    								class="alignBoxes4P1"  />
+    						</HBox>
+    						<Text text=" "></Text>
+    					</Panel>
+    				</l:content>
+    			</l:Grid>
+    		</VBox>
 		</content>
 		<footer>
 			<Toolbar>

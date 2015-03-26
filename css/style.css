@@ -19,11 +19,13 @@
     
 } 
 
-.panelsTitle{
-      margin-left: auto !important;
-    margin-right: auto !important;   
-	font-size: 150% !important ;
-	text-align: center !important;
+.panelsTitle.sapMText {
+    font-size: 150%;
+}
+
+.panelsTitleCenter {
+    margin-left: auto;
+    margin-right: auto;   
 }
  .calcuInfo{
     /* text-indent: 50px; */
