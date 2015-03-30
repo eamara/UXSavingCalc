@@ -6,7 +6,7 @@
     <!--<Link text="Transactions List" target="_blank"
 					href="http://www.easymarketplace.de/transactions.php" class="sapUiVisibleOnlyOnPhone"/>-->
     <buttons>
-      
+               <Button id="csoId" type="Accept" text="Create Sales Orders" press="displayVA01Data"  class="sapUiVisibleOnlyOnPhone"></Button>
 			    <Button id="chsoId" type="Accept" text="Change Sales Orders" press="displayVA02Data" class="sapUiVisibleOnlyOnPhone"></Button> 
 				<Button icon="sap-icon://check-availability" press="preset" class="sapUiVisibleOnlyOnTablet" />
 				<Button icon="sap-icon://excel-attachment" press="exportCSV" class="sapUiVisibleOnlyOnTablet"/>

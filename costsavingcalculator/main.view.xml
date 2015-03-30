@@ -7,25 +7,12 @@
 		
 			<Panel>
 			
-    			<!--<l:Grid defaultSpan="L6 M6 S12">-->
+    		
+    		
     			  <VBox   width= "100%"> <HBox width= "100%"><Image src="images/TCS-Logo-Small.png" class="tataLogo"
-    					height="65px" width="99px" /></HBox> 
-    				<!--	<layoutData>
-                            <l:GridData
-                                span="L2 M3 S12"
-                                linebreakL="true" 
-                                linebreakM="true"
-                                linebreakS="true" />
-                        </layoutData>
-                    </Image>
-    				<Text id="calcInfo50" class="sapUiHideOnPhone" 
-    						text="Improving the user experience of your current software goes beyond making good looking interface screens."></Text>
-    				<Text id="calcInfo51" class="sapUiHideOnPhone"
-    					text="Task effectiveness, task efficiency and user satisfaction are key elements in the evaluation of a successful user interface."></Text>
-    				<Text id="calcInfo52" class="sapUiHideOnPhone"
-    					text="A great user experience will maximize the values of these 3 components, leading to extra savings for your company."></Text>-->
-    		  
-    			<!--</l:Grid>-->
+    					height="65px" width="99px" /></HBox> </VBox>
+    			
+    			
     			
 			</Panel>
 
@@ -33,9 +20,9 @@
 				<Label text="Transactions:" class="sapUiHideOnPhone"></Label>
 			     <ToolbarSpacer />
 			    
-				 <Button id="cdId"  text="Customer Display" press="displayXD03Data"></Button> 
-				<Button id="csoId"  text="Create Sales Orders" press="displayVA01Data" class="sapUiHideOnPhone"></Button> 
-				<Button id="chsoId"  text="Change Sales Orders" press="displayVA02Data" class="sapUiHideOnPhone"></Button> 
+				 <Button id="cdId"  text="Customer Display" type="Accept" press="displayXD03Data"></Button> 
+				<Button id="csoId"  text="Create Sales Orders" type="Accept" press="displayVA01Data" class="sapUiHideOnPhone"></Button> 
+				<Button id="chsoId"  text="Change Sales Orders" type="Accept" press="displayVA02Data" class="sapUiHideOnPhone"></Button> 
 			
 				<ToolbarSpacer />
 			<Link text="Transactions List" target="_blank"
