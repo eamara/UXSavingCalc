@@ -17,7 +17,6 @@
 				</HBox>
 			</Panel>-->
 		    <VBox>
-		    <HBox height="10px"></HBox>
 			<HBox height="50px" class="panelsTitleCenter">
 			
             <Text text=" UX Impacts " class="panelsTitle" ></Text>
