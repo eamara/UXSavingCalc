@@ -31,6 +31,7 @@
 			</Toolbar>
 
 			<VBox>
+			 <VBox height="10px"></VBox>
     			<HBox height="50px" class="panelsTitleCenter"  >
     			    
                     <Text id="titleText" text=" Basic SAP Screen " class="panelsTitle" />
