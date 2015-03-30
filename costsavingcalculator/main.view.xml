@@ -5,21 +5,18 @@
 
 		<content>
 		
-			<Panel>
+			<!--<Panel>-->
 			
-    		
-    		
-    			  <VBox   width= "100%"> <HBox width= "100%"><Image src="images/TCS-Logo-Small.png" class="tataLogo"
+    			  <VBox> <HBox class="tataLogo">
+    			  <Image src="images/TCS-Logo-Small.png" 
     					height="65px" width="99px" /></HBox> </VBox>
     			
-    			
-    			
-			</Panel>
+			<!--</Panel>-->
 
 			<Toolbar class="toolBClass">
 				<Label text="Transactions:" class="sapUiHideOnPhone"></Label>
 			     <ToolbarSpacer />
-			    
+			    <ToolbarSpacer />
 				 <Button id="cdId"  text="Customer Display" type="Accept" press="displayXD03Data"></Button> 
 				<Button id="csoId"  text="Create Sales Orders" type="Accept" press="displayVA01Data" class="sapUiHideOnPhone"></Button> 
 				<Button id="chsoId"  text="Change Sales Orders" type="Accept" press="displayVA02Data" class="sapUiHideOnPhone"></Button> 
@@ -27,15 +24,15 @@
 				<ToolbarSpacer />
 			<Link text="Transactions List" target="_blank"
 					href="http://www.easymarketplace.de/transactions.php" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://check-availability" press="preset" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://excel-attachment" press="exportCSV" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://print" press="print" class="sapUiVisibleOnlyOnDesktop"/>
-				<Button icon="sap-icon://overflow" press="onOpen" class="sapUiHideOnDesktop"/>
+				<Button icon="sap-icon://check-availability" tooltip="Preset"  press="preset" class="sapUiVisibleOnlyOnDesktop" />
+				<Button icon="sap-icon://excel-attachment" tooltip="Export to Excel"  press="exportCSV" class="sapUiVisibleOnlyOnDesktop" />
+				<Button icon="sap-icon://print" press="print" tooltip="Print" class="sapUiVisibleOnlyOnDesktop"/>
+				<Button icon="sap-icon://overflow" press="onOpen" tooltip= "Click to see the hidden menu" class="sapUiHideOnDesktop"/>
 			</Toolbar>
 
 			<VBox>
     			<HBox height="50px" class="panelsTitleCenter"  >
-    			    <Text text=""/>
+    			    
                     <Text id="titleText" text=" Basic SAP Screen " class="panelsTitle" />
     			</HBox>
     		
