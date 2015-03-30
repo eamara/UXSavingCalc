@@ -24,10 +24,10 @@
 				<ToolbarSpacer />
 			<Link text="Transactions List" target="_blank"
 					href="http://www.easymarketplace.de/transactions.php" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://check-availability" press="preset" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://excel-attachment" press="exportCSV" class="sapUiVisibleOnlyOnDesktop" />
-				<Button icon="sap-icon://print" press="print" class="sapUiVisibleOnlyOnDesktop"/>
-				<Button icon="sap-icon://overflow" press="onOpen" class="sapUiHideOnDesktop"/>
+				<Button icon="sap-icon://check-availability" tooltip= "Preset" press="preset" class="sapUiVisibleOnlyOnDesktop" />
+				<Button icon="sap-icon://excel-attachment" tooltip="Export to Excel" press="exportCSV" class="sapUiVisibleOnlyOnDesktop" />
+				<Button icon="sap-icon://print" press="print" tooltip="Print" class="sapUiVisibleOnlyOnDesktop"/>
+				<Button icon="sap-icon://overflow" tooltip= "Click here to see the hidden menu"  press="onOpen" class="sapUiHideOnDesktop"/>
 			</Toolbar>
 
 			<VBox>
