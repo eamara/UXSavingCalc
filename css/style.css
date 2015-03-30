@@ -27,9 +27,16 @@
     margin-left: auto;
     margin-right: auto;   
 }
- .calcuInfo{
-    /* text-indent: 50px; */
- } 
+./*panelsTitleR.sapMText {
+    font-size: 150%;
+}
+
+.panelsTitleCenterR {
+    margin-left: auto;
+    margin-right: auto;   
+}*/
+ 
+ 
 .resultPageT{
 	/*margin-left: 400px !important;*/
 	/*margin-right:auto !important;*/
@@ -38,7 +45,8 @@
 	
 }
 .tataLogo{
-	margin-left: 0px !important;
+	 margin-left: auto;
+    margin-right: auto;  
 }
 
 .tataLogo2{

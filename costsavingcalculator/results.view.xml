@@ -16,17 +16,16 @@
 					
 				</HBox>
 			</Panel>-->
-			<Text text=" "></Text>
-			<HBox height="10px" >
+		    <VBox>
+			<HBox height="50px" class="panelsTitleCenter">
+			
             <Text text=" UX Impacts " class="panelsTitle" ></Text>
 			</HBox>
 
-            <Text text=" "></Text>
+            
             <HBox height="10px">
 			</HBox>
-            <Text text=" "></Text>
-
-
+            
 			<l:Grid defaultSpan="L6 M12 S12" hSpacing="0.1" vSpacing="2"
 				containerQuery="true">
 				<l:content>
@@ -136,7 +135,7 @@
 					</Panel>
                 </l:content>
                 </l:Grid>
-
+                </VBox>
 		</content>
 		<footer>
 			<Toolbar>
