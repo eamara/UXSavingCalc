@@ -83,7 +83,39 @@
      float: right !important; 
     /* background-color: #FE2E2E !important;*/
 }
+#mainView--NumClicksIdP-inner.sapMInputBaseInner{
+    color: #FE2E2E  ;
+    font-size: 150%;
+}
+#mainView--totalNumIdP-inner.sapMInputBaseInner{
+    color: #FE2E2E  ;
+    font-size: 150%;
+}
+#mainView--NumClicksIdF-inner.sapMInputBaseInner{
+    color: #FE2E2E  ;
+    font-size: 150%;
+}
+#mainView--totalclicksIdF-inner.sapMInputBaseInner{
+    color: #FE2E2E  ;
+    font-size: 150%;
+}
 
+#resultView--NumClicksIdPR-inner.sapMInputBaseInner{
+    color: #00CC66  ;
+    font-size: 150%;
+}
+#resultView--totalClicksIdPR-inner.sapMInputBaseInner{
+    color: #00CC66 ;
+    font-size: 150%;
+}
+#resultView--NumClicksIdFR-inner.sapMInputBaseInner{
+    color: #00CC66  ;
+    font-size: 150%;
+}
+#resultView--totalcliksIdFR-inner.sapMInputBaseInner{
+    color: #00CC66 ;
+    font-size: 150%;
+}
 .alignBoxes4P1{
  
     
@@ -125,10 +157,10 @@
      /*background-color: #FE2E2E !important;*/
      color: #FE2E2E !important;
 }
-.sapMInputBaseInner{
-    font-size: 12px !important;
-    font-style: bold !important;
-}
+/*.sapMInputBaseInner{*/
+/*    font-size: 12px !important;*/
+/*    font-style: bold !important;*/
+/*}*/
 .alignBoxes4P2{
  
    
