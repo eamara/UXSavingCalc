@@ -5,18 +5,14 @@
 	<Page title="UX Savings Calculator" enableScrolling="true" class="page">
 
 		<content>
-			<!--<Panel id="resId">
-				<HBox>
-				<Image src="images/TCS-Logo-Small.png" class="tataLogo2"
-						height="65px">
-					</Image>
-					<VBox>
-						<Text id="resultTitle" text="Results " class="resultPageT"></Text>
-					</VBox>
-					
-				</HBox>
-			</Panel>-->
+			<VBox> 
+    			  <VBox height="10px"></VBox>
+    			  <HBox class="tataLogo"><Image src="images/TCS-Logo-Small.png" 
+    					height="65px" width="99px" /></HBox> 
+    					    
+    			 </VBox>
 		    <VBox>
+		    <VBox height="10px"></VBox>
 			<HBox height="50px" class="panelsTitleCenter">
 			
             <Text text=" UX Impacts " class="panelsTitle" ></Text>
