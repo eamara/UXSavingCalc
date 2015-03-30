@@ -8,9 +8,9 @@
     <buttons>
                <Button id="csoId" type="Accept" text="Create Sales Orders" press="displayVA01Data"  class="sapUiVisibleOnlyOnPhone"></Button>
 			    <Button id="chsoId" type="Accept" text="Change Sales Orders" press="displayVA02Data" class="sapUiVisibleOnlyOnPhone"></Button> 
-				<Button icon="sap-icon://check-availability" tooltip="Preset" press="preset" class="sapUiVisibleOnlyOnTablet" />
-				<Button icon="sap-icon://excel-attachment" tooltip="Export to Excel" press="exportCSV" class="sapUiVisibleOnlyOnTablet"/>
-				<Button icon="sap-icon://print" press="print" tooltip="Print" class="sapUiVisibleOnlyOnTablet"/>
+				<Button icon="sap-icon://check-availability" press="preset" class="sapUiVisibleOnlyOnTablet" />
+				<Button icon="sap-icon://excel-attachment" press="exportCSV" class="sapUiVisibleOnlyOnTablet"/>
+				<Button icon="sap-icon://print" press="print" class="sapUiVisibleOnlyOnTablet"/>
     </buttons>
   </ActionSheet>
 </core:FragmentDefinition>
